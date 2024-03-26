@@ -5,4 +5,4 @@ temp repository for DAPS
 
 
 <p><code>sudo service ssh start</code></p>
-<p><code>sudo hydra -l root -P /usr/share/wordlists/metasplpoit/unix_passwords.txt <address> ssh -t 4 -V</code></p>
+<p><code>sudo hydra -l root -P /usr/share/wordlists/metasplpoit/unix_passwords.txt ip_address ssh -t 4 -V</code></p>
